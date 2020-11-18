@@ -69,6 +69,3 @@ class MyHashTable:
 
     def GetIndex(self, key):
         return hash(key) % self.length       
-
-
-''' https://coderbook.com/@marcus/how-to-create-a-hash-table-from-scratch-in-python '''
